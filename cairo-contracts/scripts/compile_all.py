@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
 
-# %% Main
+# %% Main.
 async def main():
     # %% Compile
     logger.info(f"ℹ️  Compiling contracts")
